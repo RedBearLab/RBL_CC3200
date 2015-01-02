@@ -42,7 +42,7 @@
 #include "driverlib/adc.h"
 #include "driverlib/pin.h"
 
-static const uint8_t LED = 13;
+#define LED  13
 static const uint8_t RED_LED = 13;
 static const uint8_t GREEN_LED = 13;
 static const uint8_t YELLOW_LED = 13;
