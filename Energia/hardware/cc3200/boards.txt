@@ -9,33 +9,25 @@ lpcc3200.ldscript=cc3200.ld
 #lpcc3200.upload.maximum_ram_size=32768
 
 ##############################################################
-RBLcc3200w1.name=RedBearLab-W1 w/ cc3200 (80MHz)
-RBLcc3200w1.upload.maximum_size=262144
-RBLcc3200w1.build.mcu=cortex-m4
-RBLcc3200w1.build.f_cpu=80000000L
-RBLcc3200w1.build.core=cc3200
-RBLcc3200w1.build.variant=RedBearLab-W1
-RBLcc3200w1.ldscript=cc3200.ld
-#RBLcc3200w1.upload.maximum_ram_size=32768
+RBLcc3200.name=RedBearLab CC3200 w/ cc3200 (80MHz)
+RBLcc3200.upload.maximum_size=262144
+RBLcc3200.build.mcu=cortex-m4
+RBLcc3200.build.f_cpu=80000000L
+RBLcc3200.build.core=cc3200
+RBLcc3200.build.variant=RedBearLab_CC3200
+RBLcc3200.ldscript=cc3200.ld
+#RBLcc3200.upload.maximum_ram_size=32768
 
 ##############################################################
-RBLcc3200w2.name=RedBearLab-W2 w/ cc3200 (80MHz)
-RBLcc3200w2.upload.maximum_size=262144
-RBLcc3200w2.build.mcu=cortex-m4
-RBLcc3200w2.build.f_cpu=80000000L
-RBLcc3200w2.build.core=cc3200
-RBLcc3200w2.build.variant=RedBearLab-W2
-RBLcc3200w2.ldscript=cc3200.ld
-#RBLcc3200w2.upload.maximum_ram_size=32768
+RBLWiFiMini.name=RedBearLab WiFi Mini w/ cc3200 (80MHz)
+RBLWiFiMini.upload.maximum_size=262144
+RBLWiFiMini.build.mcu=cortex-m4
+RBLWiFiMini.build.f_cpu=80000000L
+RBLWiFiMini.build.core=cc3200
+RBLWiFiMini.build.variant=RedBearLab_WiFi_Mini
+RBLWiFiMini.ldscript=cc3200.ld
+#RBLWiFiMini.upload.maximum_ram_size=32768
 
-##############################################################
-RBLcc3200w3.name=RedBearLab-W3 w/ cc3200 (80MHz)
-RBLcc3200w3.upload.maximum_size=262144
-RBLcc3200w3.build.mcu=cortex-m4
-RBLcc3200w3.build.f_cpu=80000000L
-RBLcc3200w3.build.core=cc3200
-RBLcc3200w3.build.variant=RedBearLab-W3
-RBLcc3200w3.ldscript=cc3200.ld
-#RBLcc3200w3.upload.maximum_ram_size=32768
+
 
 
