@@ -1,4 +1,4 @@
-# CC3200 Wi-Fi Series
+# RedBearLab CC3200 Wi-Fi Series
 
 Last updated: 2015/02/13
 
