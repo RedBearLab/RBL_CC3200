@@ -4,7 +4,7 @@ Last updated: 2015/05/07
 
 ## Introduction
 
-RBL CC3200 and WiFi Mini are develop boards with low power WiFi capability, they are designed for fast prototyping of IoT projects.
+[RBL CC3200 and WiFi Mini](http://redbearlab.com/) are develop boards with low power WiFi capability, they are designed for fast prototyping of IoT projects.
 
 This add-on allows you to start development using the [Energia](http://energia.nu/download/) IDE for these two boards on Windows, Mac OSX and Linus platforms.
 
