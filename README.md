@@ -39,4 +39,10 @@ The uploader program -- cc3200prog.exe requires ftdxx.dll to run, already includ
 
 Now you can develop the RedBearLab CC3200 firmware using Energia IDE. Enjoy it!
 
-Current version of Energia will show some error messages after uploading sketches, just ignore them for now and we will fix it soon, the sketches should be uploaded correctly to the CC3200.
+## Known Issues
+
+Since we are using MK20 as the interface chip, there are some issues and will be fixed soon.
+
+1. Current version of Energia will show some error messages after uploading sketches, just ignore them for now and we will fix it soon, the sketches should be uploaded correctly to the CC3200.
+
+2. After uploading sketches, you need to press the reset button.
