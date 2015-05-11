@@ -10,7 +10,15 @@ This add-on allows you to start development using the [Energia](http://energia.n
 
 ** Tested with version 0101E0015 (3/24/2015).
 
+## Getting Started
+
+Follow this getting started guide to test the board out of the box:
+
+  http://redbearlab.com/getting-start-with-cc3200/
+
 ## Install the Add-on Package
+
+To start doing your own firmware development for the CC3200 boards, follow these steps:
 
 1. Download and install the [Energia](http://energia.nu/download/) on your PC.
 2. Clone or download the RedBearLab CC3200 add-on package for Energia.
