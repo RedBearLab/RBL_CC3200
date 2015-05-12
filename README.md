@@ -46,3 +46,17 @@ Since we are using MK20 as the interface chip, there are some issues and will be
 1. Current version of Energia will show some error messages after uploading sketches, just ignore them for now and we will fix it soon, the sketches should be uploaded correctly to the CC3200.
 
 2. After uploading sketches, you need to press the reset button.
+
+## Resources
+
+TI CC3200 Official Forum
+https://e2e.ti.com/support/wireless_connectivity/f/968
+
+TI CC3200 Official Wiki
+http://processors.wiki.ti.com/index.php/CC31xx_%26_CC32xx
+
+RBL CC3200 Boards Support Forum
+https://redbearlab.zendesk.com/forums/21199609-RBL-CC3200-WiFi-Mini
+
+Energia Forum
+http://forum.43oh.com/forum/28-energia/
