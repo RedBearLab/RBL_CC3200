@@ -1,14 +1,14 @@
 # RedBearLab CC3200 Wi-Fi Series
 
-Last updated: 2015/05/07
+Last updated: 2015/05/21
 
 ## Introduction
 
-[RBL CC3200 and WiFi Mini](http://redbearlab.com/) are develop boards with low power WiFi capability, they are designed for fast prototyping of IoT projects.
+[RBL CC3200 and WiFi Mini](http://redbearlab.com/) are development boards with low power WiFi capability, they are designed for fast prototyping of IoT projects.
 
-This add-on allows you to start development using the [Energia](http://energia.nu/download/) IDE for these two boards on Windows, Mac OSX and Linus platforms.
+This add-on allows you to start development using the [Energia](http://energia.nu/download/) IDE for these two boards on Windows, Mac OSX and Linux platforms.
 
-** Tested with version 0101E0015 (3/24/2015).
+** Tested with Energia version 0101E0015 (3/24/2015).
 
 ## Getting Started
 
@@ -45,7 +45,7 @@ Since we are using MK20 as the interface chip, there are some issues and will be
 
 1. Current version of Energia will show some error messages after uploading sketches, just ignore them for now and we will fix it soon, the sketches should be uploaded correctly to the CC3200.
 
-2. After uploading sketches, you need to press the reset button.
+2. After uploading sketch, you need to press the reset button to run. This will be fixed during next release of MK20 interface firmware.
 
 ## Resources
 
