@@ -1,14 +1,14 @@
 # RedBearLab CC3200 Wi-Fi Series
 
-Last updated: 2015/05/21
+Last updated: 2015/07/24
 
 ## Introduction
 
 [RBL CC3200 and WiFi Mini](http://redbearlab.com/) are development boards with low power WiFi capability, they are designed for fast prototyping of IoT projects.
 
-This add-on allows you to start development using the [Energia](http://energia.nu/download/) IDE for these two boards on Windows, Mac OSX and Linux platforms.
+This repository contains the resouces for RBL CC3200 WiFi development boards.  The add-on allows you to start development using the [Energia](http://energia.nu/download/) IDE for these two boards on Windows, Mac OSX and Linux platforms.
 
-** Tested with Energia version 0101E0015 (3/24/2015).
+It is for Energia version 0101E0015 or before, if you are using 0101E0016 (highly recommended), the IDE already supports these two boards by default, so you do not need this add-on.
 
 ## Getting Started
 
@@ -16,7 +16,7 @@ Follow this getting started guide to test the board out of the box:
 
   http://redbearlab.com/getting-start-with-cc3200/
 
-## Install the Add-on Package
+## Install the Add-on Package (only required for Energia version 0101E0015 or before)
 
 To start doing your own firmware development for the CC3200 boards, follow these steps:
 
@@ -39,13 +39,32 @@ The uploader program -- cc3200prog.exe requires ftdxx.dll to run, already includ
 
 Now you can develop the RedBearLab CC3200 firmware using Energia IDE. Enjoy it!
 
-## Known Issues
+## Known Issues (fixed in Energia version 0101E0016 already)
 
 Since we are using MK20 as the interface chip, there are some issues and will be fixed soon.
 
-1. Current version of Energia will show some error messages after uploading sketches, just ignore them for now and we will fix it soon, the sketches should be uploaded correctly to the CC3200.
+1. Version 0101E0015 of Energia will show some error messages after uploading sketches, however, the sketches should be actually uploaded to the CC3200 correctly.
 
-2. After uploading sketch, you need to press the reset button to run. This will be fixed during next release of MK20 interface firmware.
+2. Version 0101E0015 of Energia, after uploading sketch, you need to press the reset button to run. This has been fixed by updating the MK20 interface firmware.
+ 
+## Updating MK20 Interface Firmware
+
+The MK20 firmware provides USB CDC to the system to download sketch to the CC3200. 
+
+Steps to update the firmware:
+
+1. Download the firmware from
+    https://github.com/RedBearLab/RBL_CC3200/tree/master/MK20
+
+2. Press and hold the button on the board, connect it to an USB of your PC, it will enter to the MK20 bootloader mode
+
+3. The PC will prompt a drive named "bootloader", the LED on the board will flash slowly
+
+4. Drag and drop the firmware (.bin) to the drive, after that, the LED on the board will flash very fast
+    For Mac OSX (e.g. 10.10.3), you need to use command line (Terminal) with the follow command:
+      sudo mount -u -w -o sync /Volumes/BOOTLOADER ; cp -X ~/Downloads/CC3200_MK20.bin /Volumes/BOOTLOADER/
+
+5. Remove it from the USB and use it as normal to upload sketches
 
 ## Resources
 
