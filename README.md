@@ -61,7 +61,9 @@ Steps to update the firmware:
 3. The PC will prompt a drive named "bootloader", the LED on the board will flash slowly
 
 4. Drag and drop the firmware (.bin) to the drive, after that, the LED on the board will flash very fast
+
     For Mac OSX (e.g. 10.10.3), you need to use command line (Terminal) with the follow command:
+    
       sudo mount -u -w -o sync /Volumes/BOOTLOADER ; cp -X ~/Downloads/CC3200_MK20.bin /Volumes/BOOTLOADER/
 
 5. Remove it from the USB and use it as normal to upload sketches
