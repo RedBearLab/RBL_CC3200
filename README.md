@@ -1,16 +1,16 @@
-# RedBearLab CC3200 Wi-Fi Series
+# RedBear CC3200 Wi-Fi Series
 
 Last updated: 2015/09/11
 
 ## Introduction
 
-[RBL CC3200, WiFi Mini and WiFi Micro](http://redbearlab.com/) are development boards with low power WiFi capability, they are designed for fast prototyping of IoT projects.
+WiFi CC3200, WiFi Mini and WiFi Micro](http://redbear.cc/) are development boards with low power WiFi capability, they are designed for fast prototyping of IoT projects.
 
 This repository contains the resouces for RBL CC3200 WiFi development boards.  The add-on allows you to start development using the [Energia](http://energia.nu/download/) IDE for these two boards on Windows, Mac OSX and Linux platforms.
 
 The Energia IDE version 0101E0016 has already built in support for the RBL CC3200 and the WiFi Mini board. So this add-on is for version 0101E0015 or before.
 
-For the WiFi Micro, you need to use this add-on and the next release of Energia IDE will add support for this board.
+**For the WiFi Micro, you need to use this add-on and the next release of Energia IDE will add support for this board.**
 
 ## Getting Started
 
@@ -19,7 +19,7 @@ Follow this getting started guide to test the board out of the box:
   http://redbearlab.com/getting-start-with-cc3200/
 
 ## Install the Add-on Package 
-## (If you are using __WiFi Micro__ or Energia version 0101E0015)
+**(If you are using __WiFi Micro__ or Energia version 0101E0015)**
 
 To start doing your own firmware development for the CC3200 boards, follow these steps:
 
