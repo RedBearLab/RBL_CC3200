@@ -18,7 +18,8 @@ Follow this getting started guide to test the board out of the box:
 
   http://redbearlab.com/getting-start-with-cc3200/
 
-## Install the Add-on Package (only required for Energia version 0101E0015 or before)
+## Install the Add-on Package 
+## (If you are using __WiFi Micro__ or Energia version 0101E0015)
 
 To start doing your own firmware development for the CC3200 boards, follow these steps:
 
