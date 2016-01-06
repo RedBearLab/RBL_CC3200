@@ -4,7 +4,7 @@ Last updated: 2016/01/06
 
 ## Introduction
 
-RedBear WiFi CC3200, WiFi Mini and WiFi Micro](http://redbear.cc/) are development boards with low power WiFi capability, they are designed for fast prototyping of IoT projects.
+[RedBear WiFi CC3200, WiFi Mini and WiFi Micro](http://redbear.cc/) are development boards with low power WiFi capability, they are designed for fast prototyping of IoT projects.
 
 This repository contains the resouces for RBL CC3200 WiFi development boards.  The add-on allows you to start development using the [Energia](http://energia.nu/download/) IDE for these two boards on Windows, Mac OSX and Linux platforms.
 
