@@ -1,6 +1,6 @@
 # RedBear CC3200 Wi-Fi Series
 
-Last updated: 2016/01/06
+Last updated: 2016/11/05
 
 ## Introduction
 
@@ -77,7 +77,7 @@ http://processors.wiki.ti.com/index.php/CC31xx_%26_CC32xx
 
 RBL CC3200 Boards Support Forum
 
-https://redbearlab.zendesk.com/forums/21199609-RBL-CC3200-WiFi-Mini
+http://discuss.redbear.cc
 
 Energia Forum
 
