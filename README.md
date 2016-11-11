@@ -4,19 +4,31 @@ Last updated: 2016/01/06
 
 ## Introduction
 
-[RedBear WiFi CC3200, WiFi Mini and WiFi Micro](http://redbear.cc/) are development boards with low power WiFi capability, they are designed for fast prototyping of IoT projects.
+[RedBear WiFi CC3200, WiFi Mini and WiFi Micro](http://redbear.cc/) are the development boards with low power WiFi capability, they are designed for fast prototyping of IoT projects.
 
-This repository contains the resouces for RBL CC3200 WiFi development boards.  The add-on allows you to start development using the [Energia](http://energia.nu/download/) IDE for these two boards on Windows, Mac OSX and Linux platforms.
+This repository contains the resouces for RBL CC3200 WiFi development boards. To start development using the [Energia](http://energia.nu/download/) IDE for these three boards on Windows, Mac OSX and Linux platforms, please follow the following instructions.
 
-The Energia IDE version 0101E0017 has already built in support for these boards.
+## RBL CC3200
+
+![image](Docs/Images/CC3200_Layout.jpeg)
+
+![image](Docs/Images/CC3200_Pinout.jpeg)
+
+## WiFi Mini
+
+![image](Docs/Images/WiFi_Mini_Pinout.jpeg)
+
+## WiFi Micro
+
+![image](Docs/Images/WiFi_Micro.png)
+
+![image](Docs/Images/WiFi_Micro_Pinout.png)
 
 ## Getting Started
 
-Follow this getting started guide to test the board out of the box:
+* Follow the [Getting Started Guide](docs/Getting_Started_with_CC3200.md) to test the board out of the box. This will make sure your board is functional.
 
-  http://redbearlab.com/getting-start-with-cc3200/
-
-To start doing your own firmware development for the CC3200 boards, download and install the [Energia](http://energia.nu/download/) on your PC.
+* To start doing your own firmware development for the CC3200 boards, download and install the [Energia](http://energia.nu/download/) on your PC.
 
 ## Install USB CDC Driver (Windows Only)
 
@@ -26,13 +38,13 @@ Get [this driver](https://mbed.org/media/downloads/drivers/mbedWinSerial_16466.e
 
 The uploader program -- cc3200prog.exe requires ftdxx.dll to run, already included in this add-on, but if you have any problems, download and install [CC3200 LaunchPack Driver](http://energia.nu/guide/guide_windows/) to try.
 
-**Note that you do not need any driver for OSX and Linux platforms.**
+**Note that you do not need any driver for the OSX and Linux platforms.**
 
-## Start Coding
+## Starting Coding
 
-Now you can develop the RedBearLab CC3200 firmware using Energia IDE. Enjoy it!
+Now you can develop the RedBearLab CC3200 firmware using the Energia IDE. Enjoy it!
 
-## Updating MK20 Interface Firmware
+## Updating MK20 Interface Firmware (optional)
 
 The MK20 firmware provides USB CDC to the system to download sketch to the CC3200. 
 
